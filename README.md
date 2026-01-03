@@ -14,3 +14,9 @@ An AI-powered privacy analysis system that automatically analyzes website privac
 - PostgreSQL
 - FastAPI (Python)
 - Chrome Extension (Manifest V3)
+
+## Note on Usage
+
+This project currently runs locally.
+Some websites (e.g. LeetCode, LinkedIn) block automated privacy analysis and may return 403 errors.
+This behavior is expected and handled gracefully by the extension.
